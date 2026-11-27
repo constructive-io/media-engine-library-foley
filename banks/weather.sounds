@@ -1,0 +1,10 @@
+# Weather and the outdoors. The loops repeat without a seam.
+# A `level` is the loudness a sound is brought to, in dB RMS over the whole file.
+
+@sounds
+RAIN:    { file: rain.flac, loop: true, track: ambience, level: -34 }
+WIND:    { file: wind.flac, loop: true, track: ambience, level: -32 }
+SEA:     { file: sea.flac, loop: true, track: ambience, level: -32 }
+NIGHT:   { file: night.flac, loop: true, track: ambience, level: -36 }
+BIRDS:   { file: birds.flac, loop: true, track: ambience, level: -37 }
+THUNDER: { file: thunder.flac, track: foreground, level: -20 }

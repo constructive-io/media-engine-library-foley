@@ -1,0 +1,9 @@
+{
+  "library": "foley",
+  "version": "0.1.0",
+  "license": "CC0-1.0",
+  "summary": "Sound effects, ambience loops and short music beds, every one synthesised by a script in the repository.",
+  "homepage": "https://github.com/constructive-io/media-library-foley",
+  "banks": ["banks"],
+  "sounds": ["sounds"]
+}

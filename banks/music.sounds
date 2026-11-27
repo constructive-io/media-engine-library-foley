@@ -1,0 +1,12 @@
+# Music. Four beds that loop, two stingers, and a riser and an impact to go with them.
+# A `level` is the loudness a sound is brought to, in dB RMS over the whole file.
+
+@sounds
+CALM:   { file: calm.flac, loop: true, track: music, level: -30 }
+TENSE:  { file: tense.flac, loop: true, track: music, level: -30 }
+BRIGHT: { file: bright.flac, loop: true, track: music, level: -30 }
+PULSE:  { file: pulse.flac, loop: true, track: music, level: -30 }
+OPEN:   { file: open.flac, track: transition, level: -22 }
+CLOSE:  { file: close.flac, track: transition, level: -22 }
+RISER:  { file: riser.flac, track: transition, level: -22 }
+IMPACT: { file: impact.flac, track: transition, level: -22 }

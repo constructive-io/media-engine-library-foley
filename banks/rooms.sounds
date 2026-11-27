@@ -1,0 +1,8 @@
+# Indoors. All four are loops that repeat without a seam.
+# A `level` is the loudness a sound is brought to, in dB RMS over the whole file.
+
+@sounds
+ROOM-TONE: { file: room-tone.flac, loop: true, track: ambience, level: -42 }
+HUM:       { file: hum.flac, loop: true, track: ambience, level: -36 }
+MURMUR:    { file: murmur.flac, loop: true, track: ambience, level: -35 }
+FIRE:      { file: fire.flac, loop: true, track: ambience, level: -33 }

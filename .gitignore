@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+
+# Anything rendered while trying a sound stays out of the repository.
+out/
+
+# No video here: this is a library of sounds.
+*.mp4
+*.mov
+*.mkv
+*.webm

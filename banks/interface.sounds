@@ -1,0 +1,14 @@
+# Sounds for a screen: presses, tones and small signals.
+# A `level` is the loudness a sound is brought to, in dB RMS over the whole file.
+# A short sharp sound is mostly quiet, so its number is low.
+
+@sounds
+CLICK:        { file: click.flac, track: foreground, level: -42 }
+POP:          { file: pop.flac, track: foreground, level: -30 }
+BEEP:         { file: beep.flac, track: foreground, level: -28 }
+DING:         { file: ding.flac, track: foreground, level: -29 }
+CHIME:        { file: chime.flac, track: foreground, level: -26 }
+ERROR:        { file: error.flac, track: foreground, level: -28 }
+SUCCESS:      { file: success.flac, track: foreground, level: -24 }
+NOTIFICATION: { file: notification.flac, track: foreground, level: -24 }
+WHOOSH:       { file: whoosh.flac, track: foreground, level: -26 }

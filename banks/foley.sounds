@@ -1,0 +1,14 @@
+# Things people do and things in a room.
+# A `level` is the loudness a sound is brought to, in dB RMS over the whole file.
+# A short sharp sound is mostly quiet, so its number is low.
+
+@sounds
+KNOCK:     { file: knock.flac, track: foreground, level: -28 }
+DOOR:      { file: door.flac, track: foreground, level: -29 }
+BELL:      { file: bell.flac, track: foreground, level: -30 }
+TICK:      { file: tick.flac, track: foreground, level: -40 }
+HEARTBEAT: { file: heartbeat.flac, track: foreground, level: -24 }
+FOOTSTEPS: { file: footsteps.flac, track: foreground, level: -34 }
+PAGE-TURN: { file: page-turn.flac, track: foreground, level: -34 }
+TYPING:    { file: typing.flac, track: foreground, level: -40 }
+SHUTTER:   { file: shutter.flac, track: foreground, level: -35 }
