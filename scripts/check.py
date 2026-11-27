@@ -9,7 +9,7 @@ no consent, a clip that is not there, a path that leaves the library, a bank
 that plays a file the library does not hold, a recording that was left in by
 mistake. It needs Python 3.9 and nothing else, so it can run on every push.
 
-It does not listen to the clips. `me library check`, from Constructive Media,
+It does not listen to the clips. `media library check`, from Constructive Media,
 does everything this does and measures each clip as well: run that before a
 release.
 """

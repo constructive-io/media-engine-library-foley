@@ -37,7 +37,7 @@ python3 scripts/make.py --list            # what there is
 python3 scripts/make.py --verify          # measure every file: level, loop seam, size, banks
 python3 scripts/make.py --hash            # a hash of each file's samples, to compare two builds
 python3 scripts/check.py                  # is it a library; needs nothing installed
-me library check .                        # the same check, by the engine
+media library check .                     # the same check, by the engine
 ```
 
 Where the system Python has no numpy:

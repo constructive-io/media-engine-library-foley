@@ -25,18 +25,18 @@ There are no voices and no faces here.
 
 ## Use it
 
-`me` is the command of Constructive Media. The name is short for "media engine".
+`media` is the command of Constructive Media.
 
 Add the library by name, once an index lists it:
 
 ```sh
-me library add foley
+media library add foley
 ```
 
 Or add it by its address:
 
 ```sh
-me library add constructive-io/media-library-foley
+media library add constructive-io/media-library-foley
 ```
 
 Then pull a bank into a `.conv` script and name a sound in a cue:
@@ -179,7 +179,7 @@ Do not edit a file in `sounds/` by hand.
 
 ```sh
 python3 scripts/check.py     # is it a library; needs nothing installed
-me library check .           # the same check, by the engine
+media library check .        # the same check, by the engine
 ```
 
 ## License
