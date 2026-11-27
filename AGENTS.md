@@ -1,6 +1,6 @@
 # foley — agent guide
 
-A library of sounds for [Constructive Media](https://github.com/constructive-io/constructive-media):
+A library of sounds for [Constructive Media](https://github.com/constructive-io/media-engine):
 ambience loops, one-shots and short music beds. [`media-library.json`](./media-library.json)
 names what is in it. [README.md](./README.md) lists every sound.
 

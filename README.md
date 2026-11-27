@@ -5,17 +5,17 @@
 </p>
 
 <p align="center" width="100%">
-  <a href="https://github.com/constructive-io/media-library-foley/actions/workflows/check.yml">
-    <img height="20" src="https://github.com/constructive-io/media-library-foley/actions/workflows/check.yml/badge.svg" alt="Check status" />
+  <a href="https://github.com/constructive-io/media-engine-library-foley/actions/workflows/check.yml">
+    <img height="20" src="https://github.com/constructive-io/media-engine-library-foley/actions/workflows/check.yml/badge.svg" alt="Check status" />
   </a>
-  <a href="https://github.com/constructive-io/media-library-foley/blob/main/LICENSE"><img height="20" src="https://img.shields.io/badge/license-CC0--1.0-blue.svg" alt="CC0 1.0 license" /></a>
+  <a href="https://github.com/constructive-io/media-engine-library-foley/blob/main/LICENSE"><img height="20" src="https://img.shields.io/badge/license-CC0--1.0-blue.svg" alt="CC0 1.0 license" /></a>
 </p>
 
 <p align="center" width="100%">
   Sound effects, ambience loops and short music beds. Every one is made by a script.
 </p>
 
-A library of sounds for [Constructive Media](https://github.com/constructive-io/constructive-media).
+A library of sounds for [Constructive Media](https://github.com/constructive-io/media-engine).
 There are 36 of them: 9 ambience loops, 21 one-shots, 4 music beds and 2 stingers.
 
 None of them is a recording. [`scripts/make.py`](./scripts/make.py) builds each
@@ -36,7 +36,7 @@ media library add foley
 Or add it by its address:
 
 ```sh
-media library add constructive-io/media-library-foley
+media library add constructive-io/media-engine-library-foley
 ```
 
 Then pull a bank into a `.conv` script and name a sound in a cue:
