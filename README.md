@@ -23,6 +23,16 @@ one from sines and shaped noise. Run it and you get the same files again.
 
 There are no voices and no faces here.
 
+## Features
+
+* 🔊 **[36 sounds](#the-sounds)** — 9 ambience loops, 21 one-shots, 4 music beds and 2 stingers, as FLAC files
+* 🗃️ **[Five banks](#the-banks)** — `weather`, `rooms`, `interface`, `foley` and `music`; `@include weather` in a `.conv` script, then `[ambience RAIN]` or `[THUNDER]` in a cue
+* 🎚️ **[Set levels](#levels)** — ambience loops at -26 LUFS, music beds at -22 LUFS, one-shots and stingers peaking at -3 dBFS; nothing clips
+* 🧮 **[Made by a script](#rebuild-the-sounds)** — none is a recording: `python3 scripts/make.py` builds each one from sines and shaped noise, and `--verify` measures every file
+* 🆓 **[CC0 1.0](#license)** — use the sounds for anything, with nothing to ask and no credit to give; the script is under the same terms
+* ➕ **[Added in one line](#use-it)** — `media library add foley`, or `media library add constructive-io/media-engine-library-foley` by its address
+* 🌱 **[Make your own](https://github.com/constructive-io/media-engine/blob/main/docs/LIBRARIES.md#write-one)** — `media init library NAME` starts a library of your own, and `media library check .` says everything wrong with it
+
 ## Use it
 
 `media` is the command of Constructive Media.
